@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Övning 7</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            padding: 0;
+            background-color: beige;
+            width: 60%;
+            margin: 0 auto;
+            display: grid;
+            overflow-x: hidden;
+            box-sizing: border-box;
+            font-size: 1.2rem;
+        }
+
+        h2,
+        p {
+            margin: 10px;
+        }
+
+        #nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(173, 214, 214);
+        }
+
+        #nav li {
+            float: left;
+        }
+
+        #nav li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        #nav li a:hover {
+            background-color: #3606a5;
+        }
+
+        #poster {
+            padding: 4px;
+            border-radius: 4px;
+            background-color: rgb(173, 214, 214);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 380px;
+            margin: auto;
+        }
+
+        main {
+            margin-top: 80px;
+            margin-bottom: 40px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            column-gap: 20px;
+            row-gap: 50px;
+        }
+
+        #img {
+            width: 500px;
+            /* height: 20px; */
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        #footer {
+            text-align: center;
+            background-color: rgb(173, 214, 214);
+            padding: 2px;
+            height: 50px;
+        }
+
+        #footer a {
+            margin: 0 10px;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        #shortcontent {
+            font-size: 30px;
+            background-color: azure;
+            width: 600px;
+            margin: 30px auto;
+            padding: 8px;
+            text-align: center;
+        }
+        #cardL {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        #cardL div {
+            font-size: 1.3rem;
+        }
+        #content {
+            display: flex;
+            flex-direction: column;
+            row-gap: 45px;
+            width: 100%;
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+
+<body
+    style="display: flex; justify-content: center; flex-direction: column; margin: auto; width: 1200px; background-color: beige;">
+    <header style="text-align: center;">
+        <h1>
+            Cats Of The World
+        </h1>
+        <ul id="nav">
+            <li><a href="./Home.html">Home</a></li>
+            <li><a href="./CatCareTips.html">Cat Care Tips</a></li>
+            <li><a href="./Contact.html">Contact Us</a></li>
+
+        </ul>
+    </header>
+    <main>
+        <p id="shortcontent">Taking good care of your cat helps them live a long, happy, and healthy life. Below are
+            some essential cat care tips for beginners and cat lovers.</p>
+        <section id="content">
+            <div id="cardL">
+                <img id="img" src="images/CatNutrition.jpg" />
+                <div>
+                    <h2>Proper Nutition</h2>
+                    <ul>
+                        <li>Provide high-quality cat food suitable for your cat’s age.</li>
+                        <li>Always ensure fresh, clean water is available.</li>
+                        <li>Avoid human foods like chocolate, onions, and garlic.</li>
+                        <li>Control portions to prevent obesity.</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="cardL">
+                <div>
+                    <h2>Grooming & Hygiene</h2>
+                    <ul>
+                        <li>Brush your cat regularly to reduce shedding and hairballs.</li>
+                        <li>Trim nails carefully every few weeks.</li>
+                        <li>Clean ears gently and check for dirt or redness.</li>
+                        <li>Long-haired cats need more frequent grooming.</li>
+                    </ul>
+                </div>
+                <img id="img" src="images/Grooming.webp" />
+
+            </div>
+            <div id="cardL">
+                <img id="img" src="images/Safe_Cat.jpg" />
+                <div>
+                    <h2>Safe & Comfortable Living Space</h2>
+                    <ul>
+                        <li>Keep your home safe and free from small dangerous objects.</li>
+                        <li>Provide a cozy bed and a quiet place for rest.</li>
+                        <li>Cats enjoy vertical spaces like shelves or cat trees.</li>
+                        <li>Keep toxic plants away from your cat.</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="cardL">
+                <div>
+                    <h2>Exercise & Playtime</h2>
+                    <ul>
+                        <li>Play with your cat daily using toys like feather wands or balls.</li>
+                        <li>Interactive play keeps cats active and mentally stimulated.</li>
+                        <li>Rotate toys to keep them interesting.</li>
+                        <li>Playtime strengthens the bond between you and your cat.</li>
+                    </ul>
+                </div>
+                <img id="img" src="images/playing.jpg" />
+            </div>
+            <div id="cardL">
+                <img id="img" src="images/caring.jpg" />
+                <div>
+                    <h2>Health & Vet Care</h2>
+                    <ul>
+                        <li>Schedule regular vet checkups.</li>
+                        <li>Keep vaccinations up to date.</li>
+                        <li>Watch for changes in behavior, appetite, or litter box habits.</li>
+                        <li>Spaying or neutering improves long-term health.</li>
+                    </ul>
+                </div>
+            </div>
+             <div id="cardL">
+                <div>
+                    <h2>Love, Attention & Mental Health</h2>
+                    <ul>
+                        <li>Spend quality time with your cat every day.</li>
+                        <li>Respect their boundaries – cats like independence.</li>
+                        <li>Provide scratching posts to reduce stress.</li>
+                        <li>A happy cat is one that feels safe and loved.</li>
+                    </ul>
+                </div>
+                <img id="img" src="images/Love.jpg" />
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <p>© 2025 Cat World. Connect with us on social media.
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+        </p>
+    </footer>
+</body>
+
+</html>

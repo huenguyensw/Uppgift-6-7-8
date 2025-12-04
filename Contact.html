@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Övning 7</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: azure;
+            width: 70%;
+            margin: auto;
+            font-size: 1.2rem;
+        }
+
+        h2,
+        p {
+            margin: 10px;
+        }
+
+        #nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(173, 214, 214);
+        }
+
+        #nav li {
+            float: left;
+        }
+
+        #nav li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        #nav li a:hover {
+            background-color: #3606a5;
+        }
+
+        #poster {
+            padding: 4px;
+            border-radius: 4px;
+            background-color: rgb(173, 214, 214);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        main {
+            margin-top: 40px;
+            margin-bottom: 40px;
+
+
+        }
+
+        #img {
+            width: 400px;
+            height: 420px;
+            object-fit: cover;
+        }
+
+        #footer {
+            text-align: center;
+            background-color: rgb(173, 214, 214);
+            padding: 2px;
+            height: 50px;
+        }
+
+        #footer a {
+            margin: 0 10px;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        #intro {
+            width: 800px;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            padding: 8px;
+            align-items: center;
+            row-gap: 20px;
+        }
+    </style>
+</head>
+
+<body
+    style="display: flex; justify-content: center; flex-direction: column; margin: auto; width: 1200px; background-color: beige;">
+    <header style="text-align: center;">
+        <h1>
+            Cats Of The World
+        </h1>
+        <ul id="nav">
+            <li><a href="./Home.html">Home</a></li>
+            <li><a href="./CatCareTips.html">Cat Care Tips</a></li>
+            <li><a href="./Contact.html">Contact Us</a></li>
+
+        </ul>
+    </header>
+    <main>
+        <div id="intro">
+            <img id="img" src="images/Contact-Us.webp" />
+            <div>
+                <p>We’d love to hear from you!</p>
+                <p>If you have any questions about cats, need advice, or want to share your experience, feel free to
+                    contact us. Cat World is always happy to connect with fellow cat lovers.</p>
+                <ul>
+                    <li>Email: catworld@email.com</li>
+                    <li>Phone: +46 123 456 789</li>
+                    <li>Address: Cat World Center, Stockholm, Sweden</li>
+                </ul>
+            </div>
+        </div>
+        </main>
+    <footer id="footer">
+        <p>© 2025 Cat World. Connect with us on social media.
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+        </p>
+    </footer>
+</body>
+
+</html>
