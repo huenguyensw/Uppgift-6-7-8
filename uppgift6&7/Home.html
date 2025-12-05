@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Övning 7</title>
+    <style>
+        body {
+            padding: 0;
+            background-color: beige;
+            width: 60%;
+            margin: 0 auto;
+            display: grid;
+            overflow-x: hidden;
+             box-sizing: border-box;
+            font-size: 1.2rem;
+        }
+
+        h2,
+        p {
+            margin: 10px;
+        }
+
+        #nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(173, 214, 214);
+        }
+
+        #nav li {
+            float: left;
+        }
+
+        #nav li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        #nav li a:hover {
+            background-color: #3606a5;
+        }
+
+        #poster {
+            padding: 4px;
+            border-radius: 4px;
+            background-color: rgb(173, 214, 214);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 380px;
+            margin: auto;
+        }
+
+        main {
+            margin-top: 80px;
+            margin-bottom: 40px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            column-gap: 20px;
+            row-gap: 50px;
+        }
+
+        #img {
+            width: 300px;
+            height: 320px;
+            object-fit: cover;
+        }
+
+        #footer {
+            text-align: center;
+            background-color: rgb(173, 214, 214);
+            padding: 2px;
+            height: 50px;
+        }
+
+        #footer a {
+            margin: 0 10px;
+            font-size: 16px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header style="text-align: center;">
+        <h1>
+            Cats Of The World
+        </h1>
+        <ul id="nav">
+            <li><a href="./Home.html">Home</a></li>
+            <li><a href="./CatCareTips.html">Cat Care Tips</a></li>
+            <li><a href="./Contact.html">Contact Us</a></li>
+
+        </ul>
+    </header>
+    <main>
+        <section id="poster">
+            <h3>Persian Cat</h3>
+            <img id="img" src="images/Persialainen.jpg" alt="Persian cat" />
+            <ul>
+                <li>Long, fluffy fur</li>
+                <li>Flat face, big eyes</li>
+                <li>Calm, quiet, loves relaxing indoors</li>
+            </ul>
+        </section>
+        <section id="poster">
+            <h3>Siamese Cat</h3>
+            <img id="img" src="images/Siam_lilacpoint.jpg" alt="Siamese cat" />
+            <ul>
+                <li>Short coat with dark points (ears, face, tail)</li>
+                <li>Very vocal and social</li>
+                <li>Intelligent and playful</li>
+            </ul>
+        </section>
+        <section id="poster">
+            <h3>Maine Coon</h3>
+            <img id="img" src="images/MaineCoon.webp" alt="Maine Coon cat" />
+            <ul>
+                <li>One of the largest cat breeds</li>
+                <li>Friendly and gentle (“gentle giant”)</li>
+                <li>Thick fur and bushy tail</li>
+            </ul>
+        </section>
+        <section id="poster">
+            <h3>Bengal Cat</h3>
+            <img id="img" src="images/Paintedcats.jpg" alt="Bengal Cat " />
+            <ul>
+                <li>Leopard-like spots</li>
+                <li>Very energetic and athletic</li>
+                <li>Loves climbing and playing</li>
+            </ul>
+        </section>
+        <section id="poster">
+            <h3>British Shorthair</h3>
+            <img id="img" src="images/British.jpg" alt="British Shorthair cat" />
+            <ul>
+                <li>Round face and chubby cheeks</li>
+                <li>Plush short coat</li>
+                <li>Calm, easygoing personality</li>
+            </ul>
+        </section>
+        <section id="poster">
+            <h3>Scottish Fold</h3>
+            <img id="img" src="images/cat.webp" alt="Scottish Fold cat" />
+            <ul>
+                <li>Folded ears</li>
+                <li>Cute, teddy-bear look</li>
+                <li>Sweet and affectionate</li>
+            </ul>
+        </section>
+    </main>
+    <footer id="footer">
+        <p>© 2025 Cat World. Connect with us on social media.
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+        </p>
+    </footer>
+</body>
+
+</html>
